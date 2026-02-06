@@ -1,6 +1,6 @@
 # My React App
 
-This project was created with [@ibrahimbutt/react-starter-template](https://github.com/ibarhimbutt/react-starter-template).
+This project was created with [@ibrahimbutt1711/react-starter-template](https://github.com/ibarhimbutt/react-starter-template).
 
 ## Getting Started
 
