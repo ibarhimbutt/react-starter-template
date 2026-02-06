@@ -1,6 +1,6 @@
-# React Starter Template
+# @ibrahimbutt/react-starter-template
 
-A modern, production-ready React starter template with Vite, Tailwind CSS, and pre-built components.
+A modern, production-ready React starter template with Vite, Tailwind CSS, and pre-built components. Created by [Ibrahim Butt](https://github.com/ibarhimbutt).
 
 ## Features
 
@@ -15,7 +15,7 @@ A modern, production-ready React starter template with Vite, Tailwind CSS, and p
 ## Quick Start
 
 ```bash
-npx react-starter-template my-app
+npx @ibrahimbutt/react-starter-template my-app
 cd my-app
 npm run dev
 ```
@@ -128,6 +128,13 @@ Edit `tailwind.config.js` to customize colors, fonts, spacing, etc.
 ### Components
 
 Modify components in `src/components/` to match your design system.
+
+## Learn More
+
+- [GitHub Repository](https://github.com/ibarhimbutt/react-starter-template)
+- [Vite Documentation](https://vitejs.dev/)
+- [React Documentation](https://react.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
 
 ## License
 

@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "A modern React starter template with Vite, Tailwind CSS, and pre-built components",
     "bin": {
-        "@ibrahimbutt/react-starter-template": "./bin/cli.js"
+        "react-starter-template": "./bin/cli.js"
     },
     "files": [
         "bin",
@@ -17,10 +17,10 @@
         "template",
         "boilerplate"
     ],
-    "author": "",
+    "author": "Ibrahim Butt",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": ""
+        "url": "https://github.com/ibarhimbutt/react-starter-template.git"
     }
 }
