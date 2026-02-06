@@ -2,6 +2,13 @@
 
 A modern, production-ready React starter template with Vite, Tailwind CSS, and pre-built components. Created by [Ibrahim Butt](https://github.com/ibarhimbutt).
 
+## Quick Start
+
+```bash
+npx @ibrahimbutt1711/react-starter-template my-app
+cd my-app
+npm run dev
+```
 ## Features
 
 - ⚡ **Vite** - Lightning fast build tool with Hot Module Replacement
@@ -12,13 +19,6 @@ A modern, production-ready React starter template with Vite, Tailwind CSS, and p
 - 📁 **Clean Architecture** - Organized folder structure with path aliases
 - 🎯 **Path Aliases** - Clean imports with @components, @hooks, @utils, etc.
 
-## Quick Start
-
-```bash
-npx @ibrahimbutt1711/react-starter-template my-app
-cd my-app
-npm run dev
-```
 
 ## Project Structure
 

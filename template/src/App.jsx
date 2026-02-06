@@ -19,7 +19,7 @@ function App() {
   const footerLinks = [
     { label: 'Privacy', href: '#' },
     { label: 'Terms', href: '#' },
-    { label: 'GitHub', href: 'https://github.com' },
+    { label: 'GitHub', href: 'https://github.com/ibarhimbutt/react-starter-template' },
   ];
 
   return (
@@ -41,7 +41,12 @@ function App() {
             <Button size="lg" variant="secondary">
               Get Started
             </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
+            <Button
+              size="lg"
+              variant="outline"
+              className="border-white text-white hover:bg-white/10"
+              onClick={() => window.open('https://github.com/ibarhimbutt/react-starter-template', '_blank')}
+            >
               View on GitHub
             </Button>
           </div>
