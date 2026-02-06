@@ -111,7 +111,11 @@ function copyDirSync(src, dest) {
     fs.mkdirSync(dest, { recursive: true });
     const entries = fs.readdirSync(src, { withFileTypes: true });
 
+    const ignored = ['node_modules', '.git', 'package-lock.json', '.DS_Store'];
+
     for (const entry of entries) {
+        if (ignored.includes(entry.name)) continue;
+
         const srcPath = path.join(src, entry.name);
         const destPath = path.join(dest, entry.name);
 
